@@ -176,3 +176,19 @@ a h1{
     font-weight: bold;
     font-size: 26pt;
 }
+
+a h1:hover{
+    text-decoration: underline;
+}
+
+.cd img{
+    margin: 5px;
+}
+
+.cd .titreAlbum{
+    padding: 5px;
+}
+
+.cd .artiste{
+    margin: 5px;
+}
