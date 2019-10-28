@@ -165,7 +165,7 @@ hr{
 }
 
 .titre{
-    grid-column-start: span 6;
+    grid-column-start: span 5;
 }
 
 .cd{
@@ -173,6 +173,7 @@ hr{
 }
 
 a h1{
+    margin: 20px 5px 0;
     font-weight: bold;
     font-size: 26pt;
 }
@@ -200,4 +201,17 @@ a h1:hover{
 .artiste:hover{
     opacity: 1;
     text-decoration: underline;
+}
+
+h2{
+    opacity: 0.75;
+    font-size: 10pt;
+    margin: 5px 5px 20px;
+}
+
+.plus{
+    text-align: right;
+    margin: 40px 5px;
+    font-size: 10pt;
+    font-weight: bold;
 }
