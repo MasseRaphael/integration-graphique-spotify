@@ -6,6 +6,7 @@
 body{
     margin: 0; 
     padding: 0;
+    background: linear-gradient(-45deg, #030406, rgb(49, 69, 104));
 }
 
 a{
@@ -27,13 +28,13 @@ a{
 }
 
 #library{
-    background: grey;
+    
     grid-column-start: 2;
     overflow: auto;
 }
 
 #player{
-    background: blue;
+    background: #282828;
     grid-row-start;: 2;
     grid-column: span 2;
 }
@@ -159,7 +160,7 @@ hr{
 .album{
     display: grid;
     grid-template-columns: 235px 235px 235px 235px 235px 235px;
-    grid-template-rows: 1fr 350px;
+    grid-template-rows: 1fr 320px;
     margin: 0 97px;
     padding: 0 32px;
 }
@@ -214,4 +215,10 @@ h2{
     margin: 40px 5px;
     font-size: 10pt;
     font-weight: bold;
+    opacity: 0.75;
+    text-transform: uppercase;
+}
+
+.plus:hover{
+    opacity: 1;
 }
