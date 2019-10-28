@@ -171,3 +171,8 @@ hr{
 .cd{
     text-align: center;
 }
+
+a h1{
+    font-weight: bold;
+    font-size: 26pt;
+}
