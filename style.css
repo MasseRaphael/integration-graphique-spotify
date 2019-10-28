@@ -160,7 +160,7 @@ hr{
     display: grid;
     grid-template-columns: 235px 235px 235px 235px 235px 235px;
     grid-template-rows: 1fr 7fr;
-    margin: 0 97px;
+    margin: 0 97px 50px 97px;
     padding: 0 32px;
 }
 
