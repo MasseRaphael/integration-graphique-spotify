@@ -1,0 +1,173 @@
+*{
+    color: #fff;
+    font-family: sans-serif;
+}
+
+body{
+    margin: 0; 
+    padding: 0;
+}
+
+a{
+    text-decoration: none;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 12vw 88vw;
+    grid-template-rows: 90.5vh 9.5vh;
+}
+
+#navBar{
+    background: #191414;
+    grid-column-start: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#library{
+    background: grey;
+    grid-column-start: 2;
+    overflow: auto;
+}
+
+#player{
+    background: blue;
+    grid-row-start;: 2;
+    grid-column: span 2;
+}
+
+.logos{
+    padding: 25px;
+}
+
+.nav svg{
+    margin-right: 15px;
+}
+
+ul{
+    list-style: none;
+}
+
+.nav li{
+    font-weight: bolder;
+    font-size: 10pt;
+    height: 40px;
+}
+
+li.active{
+    position: relative;
+}
+
+.nav ul li.active::before{
+    content: '';
+    height: 40px;
+    border-left: 5px solid #1DB954;
+    border-top: 15px solid #1DB954;
+    border-bottom: 5px solid #1DB954;
+    margin-left: -40px;
+    margin-right: 35px;
+}
+
+.inactive{
+    opacity: 0.75;
+}
+
+.inactive:hover{
+    opacity: 1;
+    transition-duration: 200ms;
+}
+
+hr{
+    width: 15px;
+    border: none;
+    border-top: 1px solid #fff;
+    opacity: 0.75;
+}
+
+.bottom{
+    text-align: center;
+}
+
+.btn1{
+    background: #fff;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 10pt;
+    margin: 15px 20px;
+}
+
+.btn1 a{
+    color: #191414;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn1:hover{
+    border: 2px solid #fff;
+    font-size: 11pt;
+}
+
+.btn2{
+    border: 2px solid #fff;
+    padding: 8px 30px;
+    border-radius: 20px;
+    font-size: 10pt;
+    margin: 10px 20px;
+}
+
+.btn2 a{
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+.btn2:hover{
+    padding: 10px 30px;
+    font-size: 11pt;
+}
+
+.link{
+    opacity: 0.75;
+    margin: 10px 20px 30px 20px;
+}
+
+.link a{
+    font-size: 9pt;
+}
+
+.link a:hover{
+    text-decoration: underline;
+}
+
+.menu{
+    text-align: center;
+    font-weight: bolder;
+    text-transform: uppercase;
+    font-size: 10pt;
+}
+
+.menu ul li{
+    display: inline-block;
+    margin: 20px;
+}
+
+.menu ul li.active{
+    border-bottom: 2px solid #1DB954;
+}
+
+.album{
+    display: grid;
+    grid-template-columns: 235px 235px 235px 235px 235px 235px;
+    grid-template-rows: 1fr 7fr;
+    margin: 0 97px;
+    padding: 0 32px;
+}
+
+.titre{
+    grid-column-start: span 6;
+}
+
+.cd{
+    text-align: center;
+}
